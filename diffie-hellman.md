@@ -41,4 +41,6 @@ Diffie-Hellman鍵共有は、前述の通り、一方向性関数をうまく利
 
 実はこれは言えません。なぜならば、離散対数問題が困難であったとしても、$$g, p, g^a, g^b$$ から、$$g^a \rightarrow a$$ や $$g^b \rightarrow b$$ という逆算を経ずに直接$$f(g, p, g^a, g^b) \rightarrow g^{ab}$$ と計算してしまうような $$f$$ を見つけられる可能性までは否定できないからです。この "$$g, p, g^a, g^b$$ から $$g^{ab}$$ を計算する" 問題をDiffie-Hellman問題 \(DHP: Diffie-Hellman Problem\) といいます。
 
+![](/assets/diffie-hellman-dhp.png)
+
 明らかに、離散対数問題が解ければこの問題も解けるため、問題の困難性しては $$DLP \ge DHP$$ という関係になっています。問題を解くのが困難であるという仮定については、$$DHP$$の方がより強い仮定をおいていることになります。
