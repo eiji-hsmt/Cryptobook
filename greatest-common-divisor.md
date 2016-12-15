@@ -290,8 +290,6 @@ $$
 d = gcd(a, b)
 $$
 
-TODO ここから先は書き直す.
-
 よって,
 
 
@@ -299,9 +297,24 @@ $$
 x \in I \Rightarrow x \in gcd(a, b)\mathbb{Z}
 $$
 
+逆
+に, $$x \in gcd(a, b)\mathbb{Z}$$ であれば $$x \in I$$である.
 
-したがって,
+というのも, $$d (=gcd(a, b))$$ は $$I$$ の要素なのだから, うまく$$x, y$$を選べば$$d = ax + by$$ とすることができる. ゆえに $$z \in gcd(a, b)\mathbb{Z}$$ であれば, ある$$k$$があって
 
-$$ax + by$$ と表せる数の中には, 必ず $$gcd(a, b) \in gcd(a, b)\mathbb{Z}$$ と等しいものが存在する.  
-換言すると, 任意の $$a, b$$ に対して, うまく $$x, y$$ を選ぶことで, $$ax + by = gcd(a, b)$$ にできる ■
+$$
+\begin{align}
+z &= k \cdot gcd(a, b) = k \cdot (ax + by) \\\
+&= a\cdot kx + b \cdot ky \in I
+\end{align}
+$$
 
+以上より,
+
+$$x \in I$$ であれば $$x \in gcd(a, b)\mathbb{Z}$$ であり, かつ, $$x \in gcd(a, b)\mathbb{Z}$$ であれば $$x \in I$$ である.
+
+したがって, $$I = gcd(a, b)\mathbb{Z}$$ である.
+
+換言すると, $$I$$ に属する数の中には, 必ず $$gcd(a, b) = 1\cdot gcd(a, b) \in gcd(a, b)\mathbb{Z}$$ と等しいものが存在する.
+
+このことは, 任意の $$a, b$$ に対して, うまく $$x, y$$ を選ぶことで, $$ax + by = gcd(a, b)$$ にできることを意味している ■
