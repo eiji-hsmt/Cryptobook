@@ -10,6 +10,7 @@
         * [環](ring.md)
         * [体](field.md)
     * [フェルマーの小定理](fermats-little-theorem.md)
+    * [中国の剰余定理](chinese-remainder-theorem.md)
 * [公開鍵暗号](public-key-cryptography.md)
     * [鍵配送問題](key-distribution.md)
     * [Diffie-Hellman鍵共有](diffie-hellman.md)
