@@ -238,7 +238,7 @@ $$
 
 $$\mathbb{Z}/p\mathbb{Z}$$は体であるから, $$0$$ を除いて乗法に関して群をなす. この群を $$(\mathbb{Z}/p\mathbb{Z})^{\times}$$ とする.
 
-1でない任意の $$a \in (\mathbb{Z}/p\mathbb{Z})^{\times}$$ に対して, 巡回群$$\langle a \rangle$$は群$$(\mathbb{Z}/p\mathbb{Z})^{\times}$$の部分群であるから, ラグランジュの定理より, $$|\langle a \rangle |$$ は $$(\mathbb{Z}/p\mathbb{Z})^{\times}$$ の約数である. すなわち, ある整数 $$k$$ があって,
+1でない任意の $$a \in (\mathbb{Z}/p\mathbb{Z})^{\times}$$ に対して, 巡回群$$\langle a \rangle$$は群$$(\mathbb{Z}/p\mathbb{Z})^{\times}$$の部分群であるから, ラグランジュの定理より, $$|\langle a \rangle |$$ は $$|(\mathbb{Z}/p\mathbb{Z})^{\times}|$$ の約数である. すなわち, ある整数 $$k$$ があって,
 
 $$
 |(\mathbb{Z}/p\mathbb{Z})^{\times}|=k|\langle a \rangle |
