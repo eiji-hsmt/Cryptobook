@@ -1,5 +1,5 @@
 {
     "plugins": [
-        "mathjax4us"
+        "mathjax-update"
     ]
 }
