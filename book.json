@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "mathjax-full",
-        "katex-full"
+        "mathjax-full"
     ]
 }
